@@ -1,3 +1,7 @@
-const hello = 'hello';
+import App from './components/app';
 
-console.log(hello);
+
+window.addEventListener(
+  'DOMContentLoaded',
+  () => new App().init()
+);
